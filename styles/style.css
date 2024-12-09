@@ -127,13 +127,9 @@
     font-size: 22px;
 
     /*конец cover-------------------------------------*/
-}
+ 
 
-.lots {
-    height: 800px;
     
-}
-
 .card {
     position: relative;
     display: flex;
@@ -214,9 +210,7 @@
 
 /* конец lots -------------------------------------------*/
 
-.about {
-    height: 900px;
-}
+
 
 .about__column {
     position: relative;
