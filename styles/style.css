@@ -3,8 +3,8 @@
     grid-template-columns: 430px 120px 200px;
     justify-content: start;
     align-items: center;
-    padding-top: 90px;
-    padding-bottom: 92px;
+    padding-top: 92px;
+    padding-bottom: 90px;
 }
 
 .header__menu {
@@ -16,7 +16,7 @@
 
 .address {
     font-size: 18px;
-    line-height: 24px;
+    line-height: 1.37em;
     width: 470px;
     margin-left: 261px;
 }
@@ -28,6 +28,7 @@
     justify-content: space-evenly ;
     align-items: center;
     margin-top: -3px;
+    letter-spacing: 0.006em;
 }
  
 .header__links-list-item_1 {
@@ -41,12 +42,12 @@
 
 .header__links-list-item_no-bullet {
     list-style: none;
-    margin-left: 50px;
+    margin-left: 51px;
 } 
 
 .header__logo {
-    width: 138px;
-    margin-left: 51px;
+    width: 137px;
+    margin-left: 53px;
 }
 
 
@@ -80,29 +81,29 @@
     letter-spacing: 0.3em;
     color: white;
     font-size: 100px;
-    word-spacing: -25px;
+    word-spacing: -24px;
     padding-top: 163px;
 }
 
 .cover__description-text {
     margin-right: 80px;
-    word-spacing: 20px;
+    word-spacing: .9em;
     color: white;
     font-size: 22px;
-    margin-left: 35px;
+    margin-left: 39px;
     margin-top: 67px;
 }
 
 .aligned-text {
     display: block;
-    margin-left: 50px;
+    margin-left: 51px;
     z-index: 1;
 }
 
 .aligned-text_center {
     display: block;
     margin-left: 337px;
-    margin-top: 9px;
+    margin-top: 11px;
     z-index: 1;
 }
 
@@ -148,7 +149,7 @@
     justify-content: space-between;
     height: 100%;
     width: auto;
-    padding: 40px 41px 45px 40px;
+    padding: 41px 42px 48px 40px;
 }
 
 .lots__heading {
@@ -160,7 +161,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 25px;
-    padding: 27px 25px 0px 22px;
+    padding: 26px 25px 0px 26px;
     list-style: none;
 }
 
@@ -172,7 +173,7 @@
 .lots__look-more-link {
     display: block;
     font-size: 20px;
-    margin-top: 33px;
+    margin-top: 30px;
     margin-left: 64px;
 }
    
@@ -208,6 +209,7 @@
     text-decoration: underline;
     text-transform: uppercase;
     margin-top: 10px;
+    margin-left: -1px;
 }
 
 .card__text {
@@ -221,7 +223,7 @@
 
 .about {
     padding-top: 169px;
-    padding-right: 4px;
+    
 
 }
 
@@ -230,7 +232,7 @@
     display: grid;
     grid-template-columns: 1fr 2fr;
     height: 100%;
-    padding: 12px;
+    padding: 13px;
 }
 
 .about__logo {
@@ -287,23 +289,26 @@
     position: relative;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    padding-top: 168px;
-    padding-right: 5px;
+    padding-top: 170px;
+    margin-left: -3px;
 }
  
 .footer__address {
     font-size: 18px;
-    margin-left: 49px;
+    margin-left: 55px;
     line-height: 1.37;
 }
 
 .footer__menu {
     text-align: center;
+    margin-left: 6px;
+    margin-top: -3px;
 }
 
 .footer__menu-list {
     font-size: 18px;
     list-style: none;
+    margin-top: 2px;
 }
 
 .footer__menu-link {
