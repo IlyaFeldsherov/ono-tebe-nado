@@ -1,4 +1,5 @@
 .header {
+    position: relative;
     display: grid;
     grid-template-columns: 430px 120px 200px;
     justify-content: start;
@@ -8,7 +9,6 @@
 }
 
 .header__menu {
-    display: grid;
     width: 450px;
     margin-top: 1px;
     margin-left: -2px;
@@ -136,88 +136,81 @@
 
 
     /*конец cover-------------------------------------*/
- 
-.lots {
-    padding-top: 180px;
+ .lots {
+    padding: 179px 25px 0px 25px;
+ }
 
-}
-    
-.card {
+ .lots__heading {
+    font-size: 40px;
+    margin-left: 40px;
+ }
+
+ .lots__card-list {
+    margin-top: 27px;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+    list-style: none;
+ }
+
+ .lots__card-list-item {
+    min-height: 564px;
+ }
+ 
+ .lots__look-more-link {
+        display: block;
+        font-size: 20px;
+        margin-top: 29px;
+        margin-left: 39px;
+ }
+
+ .card {
+    height: 100%;
     position: relative;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 100%;
-    width: auto;
-    padding: 41px 42px 48px 40px;
-}
+    padding: 50px 40px;
+    background-size: cover;
+    background-repeat: no-repeat ;
+    background-position: center;
+ }
 
-.lots__heading {
-    font-size: 40px;
-    margin-left: 63px;
-}
-
-.lots__card-list {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 25px;
-    padding: 26px 25px 0px 26px;
-    list-style: none;
-}
-
-
-.lots__card-list-item {
-    height: 100%;
-}
-
-.lots__look-more-link {
-    display: block;
-    font-size: 20px;
-    margin-top: 30px;
-    margin-left: 64px;
-}
-   
-.card-link {
-    height: 100%;
-    display: block;
+ .card-link {
     text-decoration: none;
-}
-
-.card_type_film {
-    background-size: cover;
-    background-image:url(../images/card-lot-01.jpg);
-    background-position: center;
     
-}
-.card_type_book {
-    background-size: cover;
-    background-image:url(../images/card-lot-02.jpg);
-    background-position: center;
-}
+ }
 
-.card_type_picture {
-    background-size: cover;
+ .card_type_film {
+    background-image: url(../images/card-lot-01.jpg);
+ }
+
+ .card_type_book {
+    background-image: url(../images/card-lot-02.jpg);
+ }
+
+ .card_type_picture {
     background-image: url(../images/card-lot-03.jpg);
-    background-position: center;
-}
+ }
 
-.card__title {
+ .card__title {
     position: relative;
-    z-index: 1;
-    font-size: 22px;
     color: white;
-    text-decoration: underline;
+    font-size: 22px;
     text-transform: uppercase;
-    margin-top: 10px;
-    margin-left: -1px;
-}
+    text-decoration-line: underline;
+    line-height: 26px;
+    font-weight: 700;
+ }
 
-.card__text {
-    position: relative;
-    z-index: 1;
+ .card__text {
     color: white;
     font-size: 20px;
-}
+    position: relative;
+    text-decoration: none;
+
+ }
 
 /* конец lots -------------------------------------------*/
 
