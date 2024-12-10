@@ -1,3 +1,4 @@
+
 .header {
     position: relative;
     display: grid;
@@ -9,9 +10,8 @@
 }
 
 .header__menu {
+    position: relative;
     width: 450px;
-    margin-top: 1px;
-    margin-left: -2px;
 }
 
 .address {
@@ -282,20 +282,22 @@
     position: relative;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    padding-top: 170px;
-    margin-left: -3px;
+    padding-top: 148px;
+    margin-bottom: 84px;
+   
 }
  
 .footer__address {
     font-size: 18px;
-    margin-left: 55px;
+    margin-left: 54px;
     line-height: 1.37;
+    margin-top: 22px;
 }
 
 .footer__menu {
     text-align: center;
-    margin-left: 6px;
-    margin-top: -3px;
+    align-self: center;
+    margin-top: -15px;
 }
 
 .footer__menu-list {
@@ -312,17 +314,29 @@
     text-decoration: none;
 }
 
-/*ссылки на соцсети*/
-
 .footer__social-list {
     position: relative;
-    display: flex;
+    display: grid;
+    grid-template-columns: 60px 60px 60px;
+    justify-content: start;
+    align-items: center;
     list-style: none;
-    justify-content: space-evenly;
+    margin-top: -24px;
+}
+.footer__social-list-item_1 {
+    margin-left: 79px;
+}
+
+.footer__social-list-item_2 {
+    margin-left: 115px;
+}
+
+.footer__social-list-item_3 {
+    margin-left: 151px;
 }
 
 .footer__social-link {
     display: block;
     width: 49px;
-    margin-right: -31px;
+   
 }
