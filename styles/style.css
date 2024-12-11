@@ -50,8 +50,6 @@
     text-decoration: none;
 }
 
-.header__link {}
-
 .header__logo {
     width: 137px;
     margin-left: 53px;
@@ -329,10 +327,6 @@
     list-style: none;
     margin-left: 36px;
     margin-top: 34px;
-}
-
-.footer__social-list-item {
-    
 }
 
 .footer__social-link {
