@@ -17,6 +17,10 @@
 .address {
     font-size: 18px;
     line-height: 1.37em;
+    font-style: normal;
+}
+
+.header__address {
     width: 470px;
     margin-left: 261px;
 }
@@ -28,24 +32,25 @@
     justify-content: space-evenly ;
     align-items: center;
     margin-top: -3px;
+    margin-left: 50px;
     letter-spacing: 0.006em;
 }
  
-.header__links-list-item_1 {
+.header__links-list-item {
     list-style: circle;
-    width: 155px;
-    margin-left: 7px;
-}
-
-.header__links-list-item_2 {
-    list-style: circle;
-    margin-left: 28px;
+    width: 152px;
+    margin-left: 32px;
 }
 
 .header__links-list-item_no-bullet {
     list-style: none;
-    margin-left: 51px;
 } 
+
+.header__link-active {
+    text-decoration: none;
+}
+
+.header__link {}
 
 .header__logo {
     width: 137px;
@@ -60,9 +65,8 @@
     position: relative;
     color: white;
     background-image: url("../images/cover.jpg");
-    background-size: 125%;
-    background-position-x: center;
-    background-position-y: center;
+    background-size: cover;
+    background-position: center;
     padding-bottom: 50px;
 }
 
@@ -70,7 +74,7 @@
     position: absolute;
     z-index: 0;
     background-color: black;
-    opacity:  0.3;
+    opacity:  0.6;
     width: 100%;
     height: 100%;
     top:0;
@@ -84,7 +88,8 @@
     color: white;
     font-size: 100px;
     word-spacing: -24px;
-    padding-top: 163px;
+    padding-top: 164px;
+    text-transform: uppercase;
 }
 
 .cover__description-text {
@@ -104,16 +109,18 @@
 
 .aligned-text_center {
     display: block;
-    margin-left: 337px;
-    margin-top: 11px;
+    text-align: center;
     z-index: 1;
+    margin-right: 28px;
+    margin-top: 10px;
 }
 
 .aligned-text_right {
     display: block;
-    margin-left: 637px;
-    margin-top: 3px;
+    text-align: right;
     z-index: 1;
+    margin-right: 20px;
+    margin-top: 3px;
 }
 
 .cover__description {
@@ -133,6 +140,7 @@
     margin-left: -3px;
     margin-top: 67px;
     border: 1px white solid;
+    font-family: Raleway, sans-serif;
     font-size: 22px;
 }
 
@@ -145,6 +153,7 @@
  .lots__heading {
     font-size: 40px;
     margin-left: 40px;
+    text-transform: uppercase;
  }
 
  .lots__card-list {
@@ -218,7 +227,6 @@
 
 .about {
     padding-top: 169px;
-    height: 755px;
 }
 
 .about__column {
@@ -226,12 +234,13 @@
     display: grid;
     grid-template-columns: 1fr 2fr;
     height: 100%;
-    padding: 13px 0px 13px 13px;
+    padding: 13px 0px 0px 13px;
 }
 
 .about__logo {
         display: flex;
         justify-content: center;
+        margin-right: 5px;
     }
 
 .about__logo-image-centr {
@@ -250,6 +259,7 @@
 
 .about__content {
     display: grid;
+    row-gap: 24px;
        
 }
 
@@ -257,17 +267,15 @@
     display: block;
     font-size: 40px;
     text-transform: uppercase;
-    margin-top: 101px;
-    margin-left: 9px;
+    margin: 101px 0px 77px 9px;
 }
 
 .about__text {
     display: block;
     font-size: 20px;
-    margin-top: 100px;
     margin-left: 9px;
     margin-right: 25px;
-    letter-spacing: 0.005em;
+    font-family: Raleway, sans-serif;
 }
 
 .about__text2 {
@@ -291,22 +299,18 @@
 }
  
 .footer__address {
-    font-size: 18px;
-    margin-left: 53px;
-    line-height: 1.37;
-    margin-top: 22px;
+    margin-left: 52px;
+    margin-top: 34px;
 }
 
 .footer__menu {
     text-align: center;
-    align-self: center;
-    margin-top: -15px;
 }
 
 .footer__menu-list {
     font-size: 18px;
     list-style: none;
-    margin-top: 2px;
+    margin-top: 35px;
 }
 
 .footer__menu-link {
@@ -320,22 +324,15 @@
 .footer__social-list {
     position: relative;
     display: grid;
-    grid-template-columns: 60px 60px 60px;
-    justify-content: start;
-    align-items: center;
+    grid-template-columns: 55px 55px 55px;
+    justify-content: space-evenly;
     list-style: none;
-    margin-top: -24px;
-}
-.footer__social-list-item_1 {
-    margin-left: 79px;
+    margin-left: 36px;
+    margin-top: 34px;
 }
 
-.footer__social-list-item_2 {
-    margin-left: 115px;
-}
-
-.footer__social-list-item_3 {
-    margin-left: 151px;
+.footer__social-list-item {
+    
 }
 
 .footer__social-link {
