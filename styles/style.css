@@ -226,7 +226,7 @@
     display: grid;
     grid-template-columns: 1fr 2fr;
     height: 100%;
-    padding: 13px;
+    padding: 13px 0px 13px 13px;
 }
 
 .about__logo {
@@ -258,23 +258,23 @@
     font-size: 40px;
     text-transform: uppercase;
     margin-top: 101px;
-    margin-left: 13px;
+    margin-left: 9px;
 }
 
 .about__text {
     display: block;
     font-size: 20px;
     margin-top: 100px;
-    margin-left: 13px;
+    margin-left: 9px;
     margin-right: 25px;
-    letter-spacing: 0.009em;
+    letter-spacing: 0.005em;
 }
 
 .about__text2 {
     display: block;
     font-size: 20px;
     margin-top: 24px;
-    margin-left: 13px;
+    margin-left: 9px;
     margin-right: 40px;
 }
 
