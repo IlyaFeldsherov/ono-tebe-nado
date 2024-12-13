@@ -2,7 +2,7 @@
 .header {
     position: relative;
     display: grid;
-    grid-template-columns: 430px 120px 200px;
+    grid-template-columns: 430px 120px auto;
     justify-content: start;
     align-items: center;
     padding-top: 92px;
@@ -21,8 +21,7 @@
 }
 
 .header__address {
-    width: 470px;
-    margin-left: 261px;
+    margin-left: 262px;
 }
 
 .header__links-list {
