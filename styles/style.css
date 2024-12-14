@@ -96,6 +96,7 @@
     font-size: 22px;
     margin-left: 39px;
     margin-top: 67px;
+    text-transform: uppercase;
 }
 
 .aligned-text {
@@ -139,6 +140,7 @@
     border: 1px white solid;
     font-family: Raleway, sans-serif;
     font-size: 22px;
+    text-transform: uppercase;
 }
 
 
@@ -273,14 +275,6 @@
     margin-left: 9px;
     margin-right: 25px;
     font-family: Raleway, sans-serif;
-}
-
-.about__text2 {
-    display: block;
-    font-size: 20px;
-    margin-top: 24px;
-    margin-left: 9px;
-    margin-right: 40px;
 }
 
 /* конец about ----------------------------------------------------*/
